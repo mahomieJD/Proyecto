@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -9,6 +10,18 @@
 
     <name>Actualizar</name>
    <properties>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>umg.edu.gt</groupId>
+    <artifactId>proyecto2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>proyecto2-1.0-SNAPSHOT</name>
+    
+    <properties>
+>>>>>>> 4cc47bfa496dc684a71bb63c207a372c7a3e8fd1
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -118,4 +131,36 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 </project>
+=======
+    
+        <!-- Configuración de distribución para desplegar artefactos -->
+    <distributionManagement>
+        <repository>
+            <id>local.demo.rep</id>
+            <url>http://localhost:8010/repository/local.demo.rep/</url>
+        </repository>
+    </distributionManagement>
+
+    <!-- Configuración de repositorios para resolver dependencias y plugins -->
+    <repositories>
+        <repository>
+            <id>local.demo.rep</id>
+            <name>local.demo.repo</name>
+            <url>http://localhost:8010/repository/local.demo.rep/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        
+        <pluginRepository>
+            <id>local.demo.rep</id>
+            <name>local.demo.repo</name>
+            <url>http://localhost:8010/repository/local.demo.rep/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    
+</project>
+>>>>>>> 4cc47bfa496dc684a71bb63c207a372c7a3e8fd1

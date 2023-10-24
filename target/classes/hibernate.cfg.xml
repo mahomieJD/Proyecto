@@ -28,10 +28,13 @@
 
         <!-- Mention annotated class -->
         <mapping class="umg.edu.gt.DTO.AutoresDTO"/>
+<<<<<<< HEAD
         <mapping class="umg.edu.gt.DTO.TiposDTO"/>
 	<mapping class="umg.edu.gt.DTO.LibroDTO"/>
 
 
+=======
+>>>>>>> 4cc47bfa496dc684a71bb63c207a372c7a3e8fd1
     </session-factory>
 
 </hibernate-configuration>

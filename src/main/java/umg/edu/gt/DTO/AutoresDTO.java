@@ -32,7 +32,11 @@ public class AutoresDTO {
     private String observaciones;
 
     @Temporal(TemporalType.TIMESTAMP)
+<<<<<<< HEAD
     @Column(name = "fecha_registro", updatable = false, insertable = false)
+=======
+    @Column(name = "fecha_registro")
+>>>>>>> 4cc47bfa496dc684a71bb63c207a372c7a3e8fd1
     private Date fechaRegistro;
 
     public AutoresDTO() {
