@@ -1,0 +1,7 @@
+ws\AutoresUpdateService.class
+ws\TiposUpdateService.class
+ws\LibrosUpdateService.class
+umg\edu\gt\insertarautoresapi\JAXRSConfiguration.class
+umg\edu\gt\DTO\TiposDTO.class
+umg\edu\gt\DTO\LibroDTO.class
+umg\edu\gt\DTO\AutoresDTO.class
